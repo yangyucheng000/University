@@ -1,0 +1,3 @@
+#python test.py --test_path '../datasets/dpdd/test_c/' --checkpoint_path './checkpoints/mprnet-jdrl-dpdd.ckpt' --model 'MPRNet' --dataset 'DPDD'
+#python test.py --test_path '../datasets/RealDOF/' --checkpoint_path './checkpoints/mprnet-jdrl-dpdd.ckpt' --model 'MPRNet' --dataset 'DPDD'
+python test.py --test_path '../datasets/SDD/test/' --checkpoint_path './checkpoints/mprnet-jdrl-sdd.ckpt' --model 'MPRNet' --dataset 'SDD'
